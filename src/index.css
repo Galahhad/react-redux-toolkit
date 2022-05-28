@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  max-width: 600px;
+  margin: 150px auto;
+  text-align: center;
+}
+.counter_wrap h1 {
+  font-size: 150px;
+  padding: 0;
+  margin: 40px 0 0 0;
+  color: orange;
+}
+.title {
+  color: blue;
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+.buttons button {
+  display: block;
+  width: 140px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(0, 21, 255);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: .2s;
+}
+.buttons button:hover {
+  background-color: rgb(0, 21, 255, 0.7);
+}
+.buttons button:focus {
+  box-shadow: 0 0 0 4px rgb(0, 21, 255, 0.5);
+}
+.buttons {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
